@@ -64,7 +64,7 @@ G2=new Ground(1300,350,300,20);
  b9 = new Box(1300,200,50,50);
 
  P1=Bodies.circle(150,450,20);
- World.add(world,p1);
+ World.add(world,P1);
 
  S=new Sling(this.P1,{x:150,y:400})
 }
@@ -94,9 +94,9 @@ fill("lightgreen")
     B15.display();
     B16.display();
     B17.display();
-fill("darkpink")
+fill(rgb(134, 205, 234))
     B18.display();
-fill("rgb(134, 205, 234)")
+fill(rgb(134, 205, 234))
     b1.display();
     b2.display();
     b3.display();
