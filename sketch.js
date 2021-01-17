@@ -64,7 +64,7 @@ G2=new Ground(1300,350,300,20);
  b9 = new Box(1300,200,50,50);
 
  P1=Bodies.circle(150,450,20);
- World.add(world,p1);
+ World.add(world,P1);
 
  S=new Sling(this.P1,{x:150,y:400})
 }
@@ -110,13 +110,13 @@ fill("lightgreen")
     b9.display();
 
     imageMode(CENTER)
-    image(p1,P1.position.x,P1.position.y,70,70)
+    image(p1,P1.position.x,P1.position.y,50,50)
 
     S.display();
 }
 
 function mouseDragged(){
-    Matter.Body.setPosition(this.P1, {x: mouseX , y: mouseY});
+    Matter.Body.setPosition(this.P1, {x:mouseX , y:mouseY});
 }
 
 
